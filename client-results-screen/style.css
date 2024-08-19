@@ -1,0 +1,91 @@
+/* General styles for the container */
+.container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the heading */
+  .container h1 {
+    font-size: 2.5em;
+    color: #3d3d3d;
+    margin-bottom: 15px;
+    font-weight: bold;
+    
+  }
+  
+  /* Style for the instructions paragraph */
+  .container p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 25px;
+  }
+  
+  /* Style for the fetch button */
+  #fetch-button {
+    background-color: #645cfc;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(100, 92, 252, 0.4);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+  }
+  
+  #fetch-button:hover {
+    background-color: #3c2dc8;
+    box-shadow: 0 6px 20px rgba(60, 45, 200, 0.5);
+    transform: scale(1.05);
+  }
+  
+  #fetch-button:focus {
+    outline: none;
+  }
+  
+  #data-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .item {
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  }
+  
+  .player1 {
+    background-color: #d4f7d4; /* Light green */
+    border: 2px solid #34c759; /* Green */
+  }
+  
+  .player2 {
+    background-color: #e4d6f7; 
+    border: 2px solid #7a59d9; 
+  }
+  
+
+  .result {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 25px;
+    color: #333;
+    
+  }
+  
